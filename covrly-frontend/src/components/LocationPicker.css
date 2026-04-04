@@ -1,0 +1,64 @@
+.location-picker {
+  display: grid;
+  gap: 10px;
+}
+
+.location-picker-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.location-picker-search {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+.location-picker-search:focus {
+  outline: none;
+  border-color: #0f766e;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.14);
+}
+
+.location-picker-map {
+  width: 100%;
+  min-height: 280px;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.location-picker-status {
+  margin: 0;
+  font-size: 13px;
+  color: #475569;
+}
+
+.location-picker-error {
+  margin: 0;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.location-picker-coordinates {
+  margin: 0;
+  font-size: 13px;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .location-picker-map {
+    min-height: 240px;
+  }
+}

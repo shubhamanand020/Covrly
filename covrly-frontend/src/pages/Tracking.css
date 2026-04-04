@@ -1,0 +1,155 @@
+.tracking-page {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.tracking-header {
+  display: grid;
+  gap: 6px;
+}
+
+.tracking-header h1 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.tracking-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #475569;
+}
+
+.tracking-status {
+  margin: 0;
+  font-size: 14px;
+  color: #334155;
+}
+
+.tracking-status-error {
+  color: #b91c1c;
+}
+
+.tracking-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 16px;
+  display: grid;
+  gap: 14px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.tracking-section {
+  display: grid;
+  gap: 8px;
+}
+
+.tracking-label {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+}
+
+.tracking-location {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.tracking-trigger-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.tracking-trigger-chip {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.tracking-trigger-chip strong {
+  font-size: 13px;
+  color: #0f172a;
+}
+
+.tracking-trigger-chip span {
+  font-size: 12px;
+  color: #475569;
+}
+
+.tracking-empty {
+  margin: 0;
+  font-size: 14px;
+  color: #475569;
+}
+
+.tracking-section-highlight {
+  border: 1px solid #bfdbfe;
+  border-radius: 14px;
+  background: #eff6ff;
+  padding: 12px;
+}
+
+.tracking-payout {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: #1d4ed8;
+}
+
+.tracking-payout-button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #2563eb;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.tracking-payout-button:hover {
+  background: #1d4ed8;
+}
+
+.tracking-payout-button:active {
+  transform: translateY(1px);
+}
+
+.tracking-payout-button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (max-width: 480px) {
+  .tracking-header h1 {
+    font-size: 24px;
+  }
+
+  .tracking-card {
+    padding: 14px;
+  }
+
+  .tracking-payout {
+    font-size: 22px;
+  }
+}

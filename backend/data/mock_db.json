@@ -1,0 +1,7265 @@
+{
+  "triggers": [
+    {
+      "trigger_id": "trg_dbc47f72977e",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:00:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_38552c38435d",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:10:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_08f03e659a14",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:20:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_eec68c9ae0d3",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:21:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_929a26532ecd",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:22:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ea5e49fdfa17",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:35:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3ccd5a0b6ea8",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:05:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3ac23fb2ef15",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:05:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_acce907c2496",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:05:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_eb3ba3fc0568",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-02T21:20:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0156a4d74d7c",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-03T21:00:00-07:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_26ea041c7aab",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-03T21:15:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_48c74248f780",
+      "location": {
+        "lat": 12.97,
+        "lng": 77.59
+      },
+      "timestamp": "2026-04-03T21:15:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cb9e19674936",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T21:30:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_09e2530add76",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.376489+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4759,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e17411da29bf",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.388356+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1668,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_6ed2dd0bd5bf",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.412956+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2996,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_034cf8fa786e",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.437655+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2205,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5ba54f18528e",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.461483+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.937,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_396a7055fc35",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.487016+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8472,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_50038d728ef0",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.509692+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4841,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f88407469a45",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.532259+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.145,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ce30ac816c49",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.557455+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0816,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5b6724eab999",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.586331+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.7379,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e541e59f37fa",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.610478+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8773,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_460b9e48c7bb",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.633923+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4379,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_6c93485ca4ff",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.656978+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1147,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_9f88ae6a5947",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.684965+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4754,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d0d5f7eda0a6",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.711267+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5512,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_aeecef8a9e48",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.735248+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4383,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ab883eb6d7f5",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.761761+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1237,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b99e1677570f",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.786898+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5529,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ee7cf97ace3e",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.809919+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.7388,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d4b707377363",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.833686+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3388,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_72d51321a2c2",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.857968+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5417,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0cc59435cd40",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.884033+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0157,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b6ba60c8f425",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.912410+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0897,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a0763df6bbea",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.938701+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4879,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_996fc565cab5",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:23:59.964116+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0276,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_73b73ea23123",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:23:59.989964+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.386,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_bf7b0185fd48",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:24:42.498138+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.354,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_8d3fbe871fc1",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:24:42.510303+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.7582,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_be7ef7a13921",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:29:00.021144+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0963,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7e3ee09f2bfa",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:29:00.055499+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.7655,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e2fc8961aa82",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:30:00.086892+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8587,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_607fe63b268e",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:30:41.016661+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.6709,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_dc127baef523",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:30:41.032711+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3829,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d7cf762482fe",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:31:00.107705+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8671,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_597c32c241d1",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:31:16.801743+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9799,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_61e11b9c8a81",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:32:16.818139+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1686,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_69f9666e5320",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:33:16.834921+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4317,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3e576127a70a",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:33:16.850397+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0175,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5b81d77bd4ad",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:34:16.884372+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1199,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1e06331afbe1",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:34:16.901310+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4885,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_abff6056f1db",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:35:16.949824+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1873,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_30aa3d888e04",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:36:16.975917+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5229,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_300aacb28cd0",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:37:17.010255+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.7848,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2e3147636262",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:38:17.049608+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3295,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5da0e35571fe",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:38:17.091290+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5668,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_4b542187548a",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:39:17.124274+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5235,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_aa723e2b0f37",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:40:17.160750+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8036,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f58957b667a5",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:41:17.203360+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3819,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7a8590b0de39",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:41:17.238227+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3618,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d1978b1ce50e",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:42:17.268103+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1638,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c8312b5ee52e",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:43:17.317008+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8999,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0b88a4132248",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:44:17.357509+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.703,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_22e101eb5f64",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:45:17.392494+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2576,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e281aeace4d0",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:46:17.434599+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1184,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d3c0fc92efe1",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:47:17.477841+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8075,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b550b0c8cf57",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:48:17.504595+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.6937,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ce92a8d44b5d",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:48:17.542753+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1031,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_650f03c01127",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:49:17.582999+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0347,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_06ddccfff2ba",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-03T18:49:17.618872+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8061,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2ad15122dbcf",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:50:17.651354+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9894,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_16453a987fd9",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:02:20.498784+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.6416,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f8dddf94c16b",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:03:20.531907+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.101,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_abfbec88c90d",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:04:20.547861+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.6668,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d3a210dee396",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:05:20.590768+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0983,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ba77c4623f61",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:06:20.629474+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4621,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a0222dc4d19c",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:07:20.660900+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1306,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_9e7d4d7f5f42",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:08:20.776843+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3113,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3cfa61bd80c0",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:09:20.808973+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8278,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_caa903fe9839",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:10:20.843159+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3932,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ba3097449c06",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:11:20.880360+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.43,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_4500f857a4ac",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:12:20.931363+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8172,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3d94b71116a3",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:13:20.968217+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8693,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_4fc959879d7b",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:14:21.031871+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2612,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_fb04eb4d70c7",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:15:21.097771+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.6331,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0babdea7d0bd",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:16:21.144007+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4961,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cac9dca78a55",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:16:21.178547+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9438,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f646d0f3b385",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:17:21.220460+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4456,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_dd1c7e69c0e6",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:18:21.260232+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.7917,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_9900dc6bd282",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:19:21.286174+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9544,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d232614f9e44",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:20:21.313505+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.6066,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5d363838810c",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:20:21.332689+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5801,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_dc22275d3e7d",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:21:21.354833+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3415,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3a23ebccc72e",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:22:21.382147+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4905,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c4631cf8c335",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:23:21.409610+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2826,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_432202474504",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:24:21.430358+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9061,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0ef2446b2ac3",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:25:21.451973+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.316,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_380018a9513e",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:26:21.478100+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0415,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_02d9bce3fa57",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:27:21.499021+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1666,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_29c16ef60a1f",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:28:21.519129+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5502,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b79e14f95f06",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:29:21.547287+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2799,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e2509fe87f05",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:30:21.568812+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2828,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_87fa89aecbbe",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:30:21.593057+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2215,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_53589c2195ba",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:31:21.611429+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.5858,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_bad3473f5125",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:31:21.631458+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2177,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_6367fd6e4ec4",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:32:21.654706+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0181,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c33d932dd1d5",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:33:21.687602+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4614,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_083794305483",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:34:21.710689+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3189,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_935742627071",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:35:21.740511+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9367,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d753c46290f5",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:36:21.777021+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9682,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_709fc63dafe3",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:37:21.793571+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2448,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5b01a25c6c12",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:38:21.821536+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9416,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e536955f8b14",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:39:21.840075+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.2414,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a13e310439df",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:40:21.863541+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.1755,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_39c9bbf670bd",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:41:21.894073+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.3463,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b44ca3268486",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:42:21.902102+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.9737,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e67a5c5b1dd1",
+      "location": {
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "timestamp": "2026-04-04T02:43:21.931945+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.4831,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e6082ad1ea1b",
+      "user_id": "demo-user",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:43:58.857848+00:00",
+      "trigger_type": "rain",
+      "fraud_score": 0.1305,
+      "policy_types": [
+        "HeatGuard",
+        "RainSure Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1788386f57e0",
+      "user_id": "demo-user",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:43:58.857848+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.994,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_8f40a3612bd5",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:44:21.966986+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.8497,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b4dca13af93e",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T02:45:21.980134+00:00",
+      "trigger_type": "traffic",
+      "fraud_score": 0.0417,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_56333735eed3",
+      "user_id": "usr_c15ccfb4a6b7",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T03:10:37.486548+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3139,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b0f06980450c",
+      "user_id": "usr_b17d63dee32c",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T03:11:20.293812+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2401,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1bb6fa973abb",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T03:31:16.653000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3778,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7fe2a75097e1",
+      "user_id": "usr_f1d9d9b19aca",
+      "location": {
+        "lat": 12.97641,
+        "lng": 77.60329
+      },
+      "timestamp": "2026-04-03T18:30:00+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5645,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d43bd390e8ce",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44510834367853,
+        "lng": 80.61896124452699
+      },
+      "timestamp": "2026-04-04T03:42:32.839000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.188,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_bee99a005154",
+      "user_id": "usr_bg_dynamic",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-03T18:30:00+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.538,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_bcbcd7bb146f",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44506678005494,
+        "lng": 80.61899476140717
+      },
+      "timestamp": "2026-04-04T04:13:50.777000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3925,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5639304d4a48",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:14:10.777399+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4266,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_175324f8978b",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445053643851402,
+        "lng": 80.61899590527167
+      },
+      "timestamp": "2026-04-04T04:17:04.897000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2298,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_941f148c2da1",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44507637544274,
+        "lng": 80.61899663175916
+      },
+      "timestamp": "2026-04-04T04:19:24.246128+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8624,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3eecc7aa5fb7",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:19:25.277469+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7821,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3aadb9f398da",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.44493902612428,
+        "lng": 80.61907363064942
+      },
+      "timestamp": "2026-04-04T04:22:30.472151+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2346,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2e7eaa8db74b",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:24:35.205013+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4375,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7996157ad93b",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44507637544274,
+        "lng": 80.61899663175916
+      },
+      "timestamp": "2026-04-04T04:24:35.679729+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4847,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_66bfdcea1495",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444983915410972,
+        "lng": 80.61904273361706
+      },
+      "timestamp": "2026-04-04T04:27:40.369555+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9485,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_dcd22c800788",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.444982700961898,
+        "lng": 80.61903766382838
+      },
+      "timestamp": "2026-04-04T04:29:49.200616+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8844,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_accc4a157cd0",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:29:49.653064+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9365,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e9cc6583a9c3",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445126865718667,
+        "lng": 80.61896925796331
+      },
+      "timestamp": "2026-04-04T04:32:54.866232+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8857,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_982bd48b8789",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.444982700961898,
+        "lng": 80.61903766382838
+      },
+      "timestamp": "2026-04-04T04:34:58.852690+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6357,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_8cc6b0a84334",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:35:00.819570+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.488,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1e35f5ce26ae",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445090604419224,
+        "lng": 80.61897710205862
+      },
+      "timestamp": "2026-04-04T04:38:05.231584+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.462,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5db0cb7bc8f2",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445028937360405,
+        "lng": 80.61901482240194
+      },
+      "timestamp": "2026-04-04T04:40:08.862411+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1978,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_84d36dbb9af3",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:40:09.866228+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4032,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_090d9387e50b",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445090604419224,
+        "lng": 80.61897710205862
+      },
+      "timestamp": "2026-04-04T04:43:17.350485+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0226,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_33d2d25b12c1",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445028937360405,
+        "lng": 80.61901482240194
+      },
+      "timestamp": "2026-04-04T04:45:41.487066+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9728,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_4a317d43613a",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:45:43.107445+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9816,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b2b05a1cdb51",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445090604419224,
+        "lng": 80.61897710205862
+      },
+      "timestamp": "2026-04-04T04:48:49.553735+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7961,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_aea16f76c626",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:50:54.874156+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7874,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_79c6e48f8a0c",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44507484443788,
+        "lng": 80.61899060504797
+      },
+      "timestamp": "2026-04-04T04:51:09.649000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7254,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3eb3db7c3882",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444959321052497,
+        "lng": 80.61904111146394
+      },
+      "timestamp": "2026-04-04T04:54:02.903100+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.809,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_81693a55e24e",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44507484443788,
+        "lng": 80.61899060504797
+      },
+      "timestamp": "2026-04-04T04:56:13.232188+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.697,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_fa9792a60f50",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T04:56:15.363100+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9756,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_21b6956dcd24",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444959321052497,
+        "lng": 80.61904111146394
+      },
+      "timestamp": "2026-04-04T04:59:22.561506+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3829,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0bd4ff625e7e",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44507484443788,
+        "lng": 80.61899060504797
+      },
+      "timestamp": "2026-04-04T05:01:28.382429+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.662,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_eefb6bab82b9",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:01:30.319682+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2367,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f9360076ff09",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T05:04:36.641452+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1416,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7e5c2172cb34",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445061998545633,
+        "lng": 80.61898262531882
+      },
+      "timestamp": "2026-04-04T05:06:43.334691+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9995,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d5ef7f1397f5",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:06:44.630087+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9243,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_39878e6622cc",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T05:09:52.346773+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0268,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cab08a610b67",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445061998545633,
+        "lng": 80.61898262531882
+      },
+      "timestamp": "2026-04-04T05:11:58.532063+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4314,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ce354d6c50d4",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:12:00.692934+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1611,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_949891cedf5c",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T05:15:08.078245+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3375,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1df354f479f6",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445061998545633,
+        "lng": 80.61898262531882
+      },
+      "timestamp": "2026-04-04T05:17:12.555381+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7217,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5d93ef15b361",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:17:15.645016+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9028,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f6adfe6928a3",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445143320253162,
+        "lng": 80.61893206227849
+      },
+      "timestamp": "2026-04-04T05:20:21.690822+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9574,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a65970ad566b",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T05:22:24.087000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3516,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_54fbd9b96823",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:22:30.750396+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5237,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f561263dbe37",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445098452393776,
+        "lng": 80.61896175324244
+      },
+      "timestamp": "2026-04-04T05:25:38.059394+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3823,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_87836999ab5f",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44496910251441,
+        "lng": 80.61905665137871
+      },
+      "timestamp": "2026-04-04T05:27:43.406588+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7654,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a398627fcf05",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:27:46.027952+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5487,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1fb21ecb46ee",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444994595463,
+        "lng": 80.6190317417983
+      },
+      "timestamp": "2026-04-04T05:30:44.510000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6501,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_01bd2ee54294",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T05:32:57.851937+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4783,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1cc385c339cd",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:33:00.212798+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5159,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_8a9e20599f1e",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.44505247892486,
+        "lng": 80.61898943677458
+      },
+      "timestamp": "2026-04-04T05:35:52.318000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7229,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2d30e3aa5f09",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:38:14.698014+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8869,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_fa80e4c8d04c",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T05:38:15.440596+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5286,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_03115913db70",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T05:41:21.680983+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6566,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_31156995e327",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T05:43:29.122007+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2638,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_45120b894ac3",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:43:29.938890+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1082,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5da1d2ece86f",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445156228704864,
+        "lng": 80.61891711118686
+      },
+      "timestamp": "2026-04-04T05:46:41.997757+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.18,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_fc064a309db6",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:48:50.318626+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.321,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_689b5984dda2",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T05:48:50.986765+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8397,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_aac7da8820c7",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445156228704864,
+        "lng": 80.61891711118686
+      },
+      "timestamp": "2026-04-04T05:51:56.469542+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5842,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d607a4445895",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:54:21.143161+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4727,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a5356873a546",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T05:54:21.561184+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9245,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_8d01551afca5",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445156228704864,
+        "lng": 80.61891711118686
+      },
+      "timestamp": "2026-04-04T05:57:28.415386+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1792,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_db21b79a5c42",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.4450525707325,
+        "lng": 80.61898454190353
+      },
+      "timestamp": "2026-04-04T05:58:01.810000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2252,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_41884fef9a41",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T05:59:36.421007+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7213,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0a051033d61b",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T05:59:36.905019+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1864,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c7a58758811d",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445165524845457,
+        "lng": 80.61893169435452
+      },
+      "timestamp": "2026-04-04T06:03:27.318000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6371,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c4bd8e789846",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.44512701232166,
+        "lng": 80.61893929420665
+      },
+      "timestamp": "2026-04-04T06:04:46.733000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1778,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_887c6f0672e4",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:04:50.042425+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5836,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e3bb2c051fbe",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:04:50.816538+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0299,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_697c03f2b2e2",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445160806589318,
+        "lng": 80.61894330315967
+      },
+      "timestamp": "2026-04-04T06:08:57.783375+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6212,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_97dcbb1f0544",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:09:59.435056+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8319,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_41ae5b54a250",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:10:00.564773+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4642,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ce1abae051be",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.4450655574569,
+        "lng": 80.6189717899036
+      },
+      "timestamp": "2026-04-04T06:11:11.104000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7696,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cc5fa31797f1",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445160806589318,
+        "lng": 80.61894330315967
+      },
+      "timestamp": "2026-04-04T06:14:11.295908+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9326,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f39ad43f3ea1",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:15:48.193104+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5691,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e68cc86b8afa",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:15:50.768290+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9462,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_778726d4ea63",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445137177509,
+        "lng": 80.61893029604974
+      },
+      "timestamp": "2026-04-04T06:16:51.339013+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1876,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_af7d6ed508aa",
+      "user_id": "system",
+      "location": {
+        "lat": 13.02,
+        "lng": 80.22
+      },
+      "timestamp": "2026-04-04T21:15:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b79d8155b4c3",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 13.11,
+        "lng": 80.31
+      },
+      "timestamp": "2026-04-04T21:15:00+00:00",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.2,
+      "policy_types": [
+        "Holistic Cover",
+        "HeatGuard"
+      ]
+    },
+    {
+      "trigger_id": "trg_1ab29cd258bd",
+      "user_id": "system",
+      "location": {
+        "lat": 13.02,
+        "lng": 80.22
+      },
+      "timestamp": "2026-04-04T21:20:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_57b4ba271d4c",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445160806589318,
+        "lng": 80.61894330315967
+      },
+      "timestamp": "2026-04-04T06:19:57.740303+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2307,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ba96c15c0249",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:20:59.974330+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.275,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_262d76f6e296",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:21:00.928956+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3535,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a913fd03fcb0",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445137177509,
+        "lng": 80.61893029604974
+      },
+      "timestamp": "2026-04-04T06:22:01.918465+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2199,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7e612e97bec8",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445160806589318,
+        "lng": 80.61894330315967
+      },
+      "timestamp": "2026-04-04T06:25:11.188757+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8801,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a2ddad9b64a9",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:26:13.335989+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.673,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_806c94067b83",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:26:14.133653+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7529,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3059ca78f743",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T06:27:15.319811+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.238,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3ca78b895dcb",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445160806589318,
+        "lng": 80.61894330315967
+      },
+      "timestamp": "2026-04-04T06:30:24.907064+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2126,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_86f6302a8738",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 13.11,
+        "lng": 80.31
+      },
+      "timestamp": "2026-04-04T21:30:00+00:00",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.2,
+      "policy_types": [
+        "Holistic Cover",
+        "HeatGuard"
+      ]
+    },
+    {
+      "trigger_id": "trg_51131172c30b",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:31:31.105935+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9537,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_32f5a365197b",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:31:32.072122+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2021,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_fa9553fbc00a",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T06:32:36.491577+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8186,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_bb9e5ac829be",
+      "user_id": "system",
+      "location": {
+        "lat": 13.02,
+        "lng": 80.22
+      },
+      "timestamp": "2026-04-04T21:35:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_acd1ad574afe",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 13.11,
+        "lng": 80.31
+      },
+      "timestamp": "2026-04-04T21:35:00+00:00",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.2,
+      "policy_types": [
+        "Holistic Cover",
+        "HeatGuard"
+      ]
+    },
+    {
+      "trigger_id": "trg_29c8296d9665",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445066867859502,
+        "lng": 80.61898420934979
+      },
+      "timestamp": "2026-04-04T06:36:05.456042+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3079,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7c47a4789fbc",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:37:08.695894+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6069,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_868d19b79859",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:37:09.494067+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.094,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_86bec787efa2",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T06:38:11.571213+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8959,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f8605a142b06",
+      "user_id": "system",
+      "location": {
+        "lat": 13.02,
+        "lng": 80.22
+      },
+      "timestamp": "2026-04-04T21:45:00+00:00",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "policy_types": [
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_9d9d9623f467",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 13.11,
+        "lng": 80.31
+      },
+      "timestamp": "2026-04-04T21:45:00+00:00",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.2,
+      "policy_types": [
+        "Holistic Cover",
+        "HeatGuard"
+      ]
+    },
+    {
+      "trigger_id": "trg_da1652a26dae",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445139273124145,
+        "lng": 80.61893515197818
+      },
+      "timestamp": "2026-04-04T06:41:50.948216+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2927,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ad9373c91e63",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:42:55.058661+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5707,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_727623534a06",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:42:55.487932+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1038,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3de135a89d24",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T06:43:58.503660+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0125,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3b53c288b700",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445067474564365,
+        "lng": 80.61899930550942
+      },
+      "timestamp": "2026-04-04T06:47:04.325700+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1429,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7b3a0320ad7b",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:48:10.054200+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2846,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_eb4dc36b3aef",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:48:10.936466+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.749,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c370b36707f3",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T06:49:13.869341+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3712,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ef9223fc7ad2",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445080784064665,
+        "lng": 80.61897188991531
+      },
+      "timestamp": "2026-04-04T06:52:26.906056+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4171,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_404975b32994",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:53:35.560782+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0053,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ae378f8347eb",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:53:36.052985+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1606,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_4ac82ce93c7d",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T06:54:41.831834+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3331,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c02461b90953",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445057133374057,
+        "lng": 80.61898190643454
+      },
+      "timestamp": "2026-04-04T06:57:48.821789+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.417,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_58666110de26",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T06:58:54.337637+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8794,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_4b6df115f798",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T06:58:55.257542+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8419,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b6d1d538f6ab",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T06:59:57.520135+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4262,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_73888fb44dce",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445135812807745,
+        "lng": 80.6189310938488
+      },
+      "timestamp": "2026-04-04T07:03:09.180928+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8542,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_450029177528",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T07:04:13.585136+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7414,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3257cf19be0d",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T07:04:14.051832+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4344,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0b26af79b29f",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T07:05:18.498837+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5026,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0aca651c5989",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445050196246466,
+        "lng": 80.61900249461277
+      },
+      "timestamp": "2026-04-04T07:08:27.585276+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3471,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cb4c7b84b126",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T07:09:31.791887+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.233,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_bd084aad14f1",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T07:09:33.733375+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8634,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_8e7fa09e9513",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T07:10:37.136539+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.819,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_49863a719ae3",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.44505247892486,
+        "lng": 80.61898943677458
+      },
+      "timestamp": "2026-04-04T07:13:43.081000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8489,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_36814853f985",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T07:14:50.920951+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4474,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_256a482ae86f",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T07:14:51.522899+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0245,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_fe4395a7a696",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T07:15:54.991650+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8928,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_045f9a712cf8",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445108658048472,
+        "lng": 80.6189491575846
+      },
+      "timestamp": "2026-04-04T07:19:01.929012+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4986,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d7d9282ddc8f",
+      "user_id": "usr_bg_dynamic_now",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "timestamp": "2026-04-04T07:20:06.485141+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7407,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d376f7b4551b",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445150024150625,
+        "lng": 80.6189267854527
+      },
+      "timestamp": "2026-04-04T07:20:07.417308+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7657,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0880c3d7cc4f",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445106088992972,
+        "lng": 80.61895339243894
+      },
+      "timestamp": "2026-04-04T07:21:09.758806+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9501,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_82302b890bfb",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.444982866132413,
+        "lng": 80.61902287189153
+      },
+      "timestamp": "2026-04-04T07:24:18.730185+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3838,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3c3c8d7ef55b",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445146975088367,
+        "lng": 80.61893562910997
+      },
+      "timestamp": "2026-04-04T07:39:21.792000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3257,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cddda8a127cb",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445152904650385,
+        "lng": 80.61891822415524
+      },
+      "timestamp": "2026-04-04T07:44:48.525369+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9092,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_664429992d3c",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.4451852509563,
+        "lng": 80.61890066914523
+      },
+      "timestamp": "2026-04-04T07:49:52.726590+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0798,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3d76d4c12a94",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445048650942702,
+        "lng": 80.61900507011903
+      },
+      "timestamp": "2026-04-04T07:54:56.960627+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0656,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_68870a27b384",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445028937360405,
+        "lng": 80.61901482240194
+      },
+      "timestamp": "2026-04-04T08:00:06.826247+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5403,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2e0df5f1ca45",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445048650942702,
+        "lng": 80.61900507011903
+      },
+      "timestamp": "2026-04-04T08:05:12.815937+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8008,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_49e5f73b8553",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445072706425957,
+        "lng": 80.6189826066929
+      },
+      "timestamp": "2026-04-04T08:22:15.554000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0972,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_10ebc88ecedd",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445072706425957,
+        "lng": 80.6189826066929
+      },
+      "timestamp": "2026-04-04T08:22:15.553000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1297,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3e1c9fa2f8d7",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.44483367957942,
+        "lng": 80.61911350959329
+      },
+      "timestamp": "2026-04-04T08:27:38.526359+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7418,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_12b2622b6328",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.44483367957942,
+        "lng": 80.61911350959329
+      },
+      "timestamp": "2026-04-04T08:32:45.167910+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7646,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_aca9073b81fe",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.44499952004557,
+        "lng": 80.61901983120258
+      },
+      "timestamp": "2026-04-04T08:37:51.813056+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6431,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1177c31a7694",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.44503121747498,
+        "lng": 80.61899463876058
+      },
+      "timestamp": "2026-04-04T08:42:59.479703+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2253,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_adc25765991b",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.444792243116254,
+        "lng": 80.6191299260602
+      },
+      "timestamp": "2026-04-04T08:48:05.694337+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4396,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_5195c263729a",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445077184971897,
+        "lng": 80.61899668930175
+      },
+      "timestamp": "2026-04-04T08:53:10.608872+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3465,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f04d61509f94",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445077184971897,
+        "lng": 80.61899668930175
+      },
+      "timestamp": "2026-04-04T08:58:15.284704+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6969,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_dcabbf8d8dac",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445103,
+        "lng": 80.6189425
+      },
+      "timestamp": "2026-04-04T09:03:19.265170+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4296,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_433d52ac2693",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445055356612002,
+        "lng": 80.61900161807834
+      },
+      "timestamp": "2026-04-04T09:08:22.144948+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0069,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_37ea3a76d42f",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:13:28.681456+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6546,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c082eb5cef87",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:18:34.362527+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0999,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3d712237206e",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444657749354008,
+        "lng": 80.61922553208441
+      },
+      "timestamp": "2026-04-04T09:20:57.083000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3465,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cd0f14830f16",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:23:43.195201+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.68,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a56978855db1",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444997223446208,
+        "lng": 80.61905293042426
+      },
+      "timestamp": "2026-04-04T09:26:48.337032+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5226,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_6fdb1401e385",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T09:27:40.293000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9028,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c201d6ed9d6e",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:29:08.572481+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4462,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0ead19303fbe",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445005139582978,
+        "lng": 80.61902208269244
+      },
+      "timestamp": "2026-04-04T09:32:14.528090+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5667,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_6f3031977c8c",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T09:33:15.765231+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9938,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d65e0f4cb4e0",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:34:18.116679+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6496,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_fca7dd668ac6",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.44503121747498,
+        "lng": 80.61899463876058
+      },
+      "timestamp": "2026-04-04T09:37:23.902956+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7264,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_62b5e888f75a",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T09:38:27.408740+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9915,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_68231d0c100d",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:39:28.793442+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3701,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_037afb4e5bc3",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.44503121747498,
+        "lng": 80.61899463876058
+      },
+      "timestamp": "2026-04-04T09:42:35.342290+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3518,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_405f5abad10d",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T09:43:39.333547+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1332,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e252580e58d4",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:44:42.042027+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3838,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3f204c61d73e",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.44503121747498,
+        "lng": 80.61899463876058
+      },
+      "timestamp": "2026-04-04T09:47:47.058160+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.116,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0d9f06c659ac",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T09:48:49.950527+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0439,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_183ef63ce72f",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:49:51.730166+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6817,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_62a8a318c989",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T09:53:57.851188+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.074,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_049419690d2d",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T09:54:58.821064+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3926,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_393854d8e255",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T09:59:08.418942+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4442,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_deac9a43f39f",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:00:09.793492+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5038,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3a713d8cab81",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:04:15.277111+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1855,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_809efccfda55",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:05:17.040407+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.204,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_290951d6faad",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445062504573706,
+        "lng": 80.61900302767052
+      },
+      "timestamp": "2026-04-04T10:10:26.760310+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9168,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d928436f382f",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:10:27.894816+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8348,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d1365a851aac",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:10:29.100370+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.6262,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_45fbe7d00512",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T10:15:42.877771+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5207,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_8c05475cf286",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:15:44.003626+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2177,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e4f0acc5b326",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:15:45.182722+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7028,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2dd4060f9559",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T10:20:57.024463+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7764,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_674e0dbb8e17",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:20:57.955186+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.9488,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_043c8dbe47f5",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:20:58.757654+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7041,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c06fa565d7b8",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T10:26:17.307829+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5743,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2174a78a1340",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:26:17.835456+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.549,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c91f62d46b2c",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:26:18.268705+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3838,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_dfc7532b8684",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445077840013816,
+        "lng": 80.61897957260692
+      },
+      "timestamp": "2026-04-04T10:31:30.475897+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5176,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_9582117f93da",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:31:31.285057+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.394,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b21c123904dd",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:31:32.240122+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3467,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1e6663ec4ec9",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445077840013816,
+        "lng": 80.61897957260692
+      },
+      "timestamp": "2026-04-04T10:36:45.439513+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8758,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_e79bc2a3e456",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:36:46.708046+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5157,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3a2172d5028d",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:36:47.883248+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2648,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_b5d35f04000e",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445077840013816,
+        "lng": 80.61897957260692
+      },
+      "timestamp": "2026-04-04T10:42:00.889524+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5408,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_675015cd7a6c",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:42:01.910407+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.7017,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2c3fa62e7a6e",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:42:02.697152+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1356,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_99fcf555ee8a",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:47:11.693611+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.3972,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_790cd7060d2f",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:47:12.605226+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.5633,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_40c69c8b6766",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:52:22.357505+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.139,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_6f3c2e78891b",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:52:24.431181+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2632,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3208f4e8f67a",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T10:57:33.749559+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.2889,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1948b3927550",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T10:57:34.995758+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.284,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_720c0d1b71f8",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T11:02:45.978890+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.4096,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7f12b9238406",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T11:02:47.220522+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0991,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_85e2463270a9",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T11:07:55.194792+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1396,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1e79c3a5065b",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T11:07:55.878353+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.1094,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a9054a1fd66c",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T11:13:04.144860+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.8984,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a81d8c8fbe72",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T11:13:06.438850+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.689,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0e58cae1cf08",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445028937360405,
+        "lng": 80.61901482240194
+      },
+      "timestamp": "2026-04-04T11:21:11.176137+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cf8c60af8ae5",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T11:21:11.816316+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_a1c4397219a2",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T11:21:12.973503+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_087a0526e65e",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T11:26:25.088558+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7ba0acb3d1d1",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445077840013816,
+        "lng": 80.61897957260692
+      },
+      "timestamp": "2026-04-04T11:26:26.702109+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_52fbbbba99c2",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T11:26:27.579768+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d31f8ab0b80a",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445077840013816,
+        "lng": 80.61897957260692
+      },
+      "timestamp": "2026-04-04T11:31:39.569609+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_f273bb6e3e4d",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T11:31:40.533827+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7eb3907750d7",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T11:31:41.560059+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3c81a39112ae",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T12:09:01.008831+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_997433b7ee84",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.445038186188594,
+        "lng": 80.61900748859685
+      },
+      "timestamp": "2026-04-04T12:09:01.122792+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_553e830151d9",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.446058,
+        "lng": 80.618294
+      },
+      "timestamp": "2026-04-04T12:09:15.271000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d61f5bd8fe3d",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445028937360405,
+        "lng": 80.61901482240194
+      },
+      "timestamp": "2026-04-04T12:09:59.855000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_33b181a6228c",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T12:14:15.511254+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7dcbcdc05e73",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44482698812679,
+        "lng": 80.61912237865852
+      },
+      "timestamp": "2026-04-04T12:14:16.905378+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_2bd7ad045e6f",
+      "user_id": "usr_a4ac3a639fe7",
+      "location": {
+        "lat": 16.44501745351518,
+        "lng": 80.61902115929205
+      },
+      "timestamp": "2026-04-04T12:15:05.686000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3adb2718dd5e",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T12:15:21.043151+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_baf3c5af8886",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44482698812679,
+        "lng": 80.61912237865852
+      },
+      "timestamp": "2026-04-04T12:19:34.045502+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cf86a1da8289",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T12:19:34.083431+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_42525bc21e04",
+      "user_id": "usr_a4ac3a639fe7",
+      "location": {
+        "lat": 16.445148984590432,
+        "lng": 80.61891457150583
+      },
+      "timestamp": "2026-04-04T12:20:34.168341+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_780c408b182a",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T12:20:34.203943+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_80df773fba8c",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T12:24:49.549426+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0159e51cd83b",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44482698812679,
+        "lng": 80.61912237865852
+      },
+      "timestamp": "2026-04-04T12:24:50.835933+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_3ef20d8e7486",
+      "user_id": "usr_a4ac3a639fe7",
+      "location": {
+        "lat": 16.44510864019548,
+        "lng": 80.61896238851556
+      },
+      "timestamp": "2026-04-04T12:25:51.692044+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_7a29c92cfd56",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T12:25:54.858997+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_cdcef30b240b",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44482698812679,
+        "lng": 80.61912237865852
+      },
+      "timestamp": "2026-04-04T12:30:10.208043+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_bea67e884db2",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T12:30:11.654764+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_ce21f00f4a5a",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T12:31:14.115965+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_0dda6830938a",
+      "user_id": "usr_a4ac3a639fe7",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T12:31:18.083000+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_c5555fe39369",
+      "user_id": "usr_d4496c7ed0ea",
+      "location": {
+        "lat": 16.445452,
+        "lng": 80.618736
+      },
+      "timestamp": "2026-04-04T12:35:33.883835+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_578feef18e66",
+      "user_id": "usr_fefb502fb3d3",
+      "location": {
+        "lat": 16.44482698812679,
+        "lng": 80.61912237865852
+      },
+      "timestamp": "2026-04-04T12:35:34.842572+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_1b7db56eef6d",
+      "user_id": "usr_a4ac3a639fe7",
+      "location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      },
+      "timestamp": "2026-04-04T12:36:36.885790+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    },
+    {
+      "trigger_id": "trg_d021e9c85c0c",
+      "user_id": "usr_914d920872a6",
+      "location": {
+        "lat": 16.445084750815614,
+        "lng": 80.61898080755307
+      },
+      "timestamp": "2026-04-04T12:36:40.136967+00:00",
+      "trigger_type": "traffic_congestion",
+      "fraud_score": 0.0,
+      "policy_types": [
+        "HeatGuard",
+        "CivicShield Cover",
+        "Holistic Cover"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm_6ad79b8426b6",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:00:00+00:00",
+      "reason": "Approved by decision engine",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "HeatGuard",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_b7ab9f41d443",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-02T21:10:00+00:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "HeatGuard",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_4114bf1fcc32",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:20:00+00:00",
+      "reason": "Approved by decision engine",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "CivicShield Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_9741d56f2a11",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:21:00+00:00",
+      "reason": "Manual claim approved after trigger and image validation",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "CivicShield Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_f0655e113a89",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:22:00+00:00",
+      "reason": "Verification successful",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "CivicShield Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_f107b62638cd",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:35:00+00:00",
+      "reason": "Verification successful",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "CivicShield Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_aa69e9c183de",
+      "user_id": "manual-user",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-02T10:00:00+00:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Cycle Shield",
+      "user_location": {
+        "lat": 10.0,
+        "lng": 70.0
+      }
+    },
+    {
+      "claim_id": "clm_4e5bc160522f",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:05:00+00:00",
+      "reason": "Manual claim approved after trigger and image validation",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_76fe9f39feb2",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:05:00+00:00",
+      "reason": "Approved by decision engine",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "CivicShield Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_797d1961324a",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "verification_required",
+      "payout": 0.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-02T21:20:00+00:00",
+      "reason": "Verification required before payout",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "verification_required": true,
+      "policy_type": "CivicShield Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_417b3c186a94",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-03T21:00:00-07:00",
+      "reason": "Manual claim approved after trigger and image validation",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_c925ded8b7b2",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-03T21:15:00+00:00",
+      "reason": "Auto payout approved",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_d45075e35ef3",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-03T21:15:00+00:00",
+      "reason": "Verification successful",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_3c8fa65801fc",
+      "user_id": "manual-user",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-03T21:15:00+00:00",
+      "reason": "Manual claim approved after trigger and fraud validation",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_e0df5c7099af",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-03T21:00:00-07:00",
+      "reason": "Manual claim approved after trigger and fraud validation",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_32cf59e396eb",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T09:14:48.650000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_f662dee0c576",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T09:14:48.652000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_d8309c633d09",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T09:14:50.826000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_a1fc2edc0434",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T09:14:52.217000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_0faf0d01a444",
+      "user_id": "geo-user",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-03T21:30:00+00:00",
+      "reason": "Auto payout approved",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      }
+    },
+    {
+      "claim_id": "clm_4c0cbaa3866b",
+      "user_id": "geo-user",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-03T21:30:00+00:00",
+      "reason": "Manual claim approved after trigger and fraud validation",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      }
+    },
+    {
+      "claim_id": "clm_68fca708ba86",
+      "user_id": "geo-user-2",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T21:30:00+00:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 12.9726,
+        "lng": 77.5946
+      }
+    },
+    {
+      "claim_id": "clm_2619263500e7",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 16.4480004,
+        "lng": 80.61553599999999
+      }
+    },
+    {
+      "claim_id": "clm_a96a90760269",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T14:20:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "HeatGuard",
+      "user_location": {
+        "lat": 16.4480004,
+        "lng": 80.61553599999999
+      }
+    },
+    {
+      "claim_id": "clm_c9c8e3822922",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T16:11:00.697000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_39a6ab554387",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T16:11:00.698000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_c7071a9e9e22",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T16:11:02.244000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_47d8808d1044",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T16:11:13.376000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_d6ad4504faf3",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T16:11:23.365000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_6facb91c9889",
+      "user_id": "demo-user",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T16:11:25.362000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_775984a26277",
+      "user_id": "demo-user",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 16.4480004,
+        "lng": 80.61553599999999
+      }
+    },
+    {
+      "claim_id": "clm_365c05671811",
+      "user_id": "usr_9c819783f5c5",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-03T17:58:02.718826+00:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "HeatGuard",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_2e2145377560",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T03:33:17.864000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_380c70e1e73c",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T03:33:17.864000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_0085c93d3536",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T03:33:19.276000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_3e3ef9ce70d3",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T03:33:20.632000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_66dbe9d88371",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T03:33:21.668000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_ea744ef7b98f",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T03:34:43.963000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_a5c8dad4453a",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T03:34:45.421000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_b2bfbd142429",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "RainSure Cover",
+      "user_location": {
+        "lat": 16.4480004,
+        "lng": 80.61553599999999
+      }
+    },
+    {
+      "claim_id": "clm_f1c479bd0b68",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T04:51:09.649000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 16.44507484443788,
+        "lng": 80.61899060504797
+      }
+    },
+    {
+      "claim_id": "clm_e2a67650687f",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T05:05:53.603000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_01b0160d4cf2",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T05:05:53.603000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_f97c6b979c59",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T05:05:55.234000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_4409824b9996",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T05:17:08.762000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_840145e2707d",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T05:18:38.769000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_6dd3c5186eb8",
+      "user_id": "usr_fefb502fb3d3",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T05:22:24.087000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 16.444999450226764,
+        "lng": 80.61903628219858
+      }
+    },
+    {
+      "claim_id": "clm_02431b1d771d",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "HeatGuard",
+      "user_location": {
+        "lat": 16.4480004,
+        "lng": 80.61553599999999
+      }
+    },
+    {
+      "claim_id": "clm_e9dca1976f2e",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T06:03:27.318000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 16.445165524845457,
+        "lng": 80.61893169435452
+      }
+    },
+    {
+      "claim_id": "clm_238136784000",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-04T21:15:00+00:00",
+      "reason": "Auto payout approved",
+      "trigger_type": "curfew",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 13.02,
+        "lng": 80.22
+      }
+    },
+    {
+      "claim_id": "clm_05b4e720c75b",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 8000.0,
+      "payout_candidate": 8000.0,
+      "timestamp": "2026-04-04T21:15:00+00:00",
+      "reason": "Manual claim approved after trigger and fraud validation",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.2,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 13.11,
+        "lng": 80.31
+      }
+    },
+    {
+      "claim_id": "clm_482d836010ac",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:15:00+00:00",
+      "reason": "Image location does not match claim location",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 13.11,
+        "lng": 80.31
+      }
+    },
+    {
+      "claim_id": "clm_f2dbae4708ad",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 8000.0,
+      "payout_candidate": 8000.0,
+      "timestamp": "2026-04-04T21:15:00+00:00",
+      "reason": "Manual claim approved after trigger and fraud validation",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 13.11,
+        "lng": 80.31
+      }
+    },
+    {
+      "claim_id": "clm_f9e9f6367ecf",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "approved",
+      "payout": 6000.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-04T21:20:00+00:00",
+      "reason": "Verification successful",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 13.02,
+        "lng": 80.22
+      }
+    },
+    {
+      "claim_id": "clm_1c39af43ca13",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "approved",
+      "payout": 8000.0,
+      "payout_candidate": 8000.0,
+      "timestamp": "2026-04-04T21:30:00+00:00",
+      "reason": "Manual claim approved after trigger and fraud validation",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 13.11,
+        "lng": 80.31
+      }
+    },
+    {
+      "claim_id": "clm_35dca71d6711",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-04T21:35:00+00:00",
+      "reason": "Verification failed",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 13.02,
+        "lng": 80.22
+      }
+    },
+    {
+      "claim_id": "clm_77fb961714f4",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:35:00+00:00",
+      "reason": "User flagged as high-risk",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 13.11,
+        "lng": 80.31
+      }
+    },
+    {
+      "claim_id": "clm_e89a68a9c6fa",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 6000.0,
+      "timestamp": "2026-04-04T21:45:00+00:00",
+      "reason": "Verification failed",
+      "trigger_type": "curfew",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 13.02,
+        "lng": 80.22
+      }
+    },
+    {
+      "claim_id": "clm_bb5a892fe1ff",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:45:00+00:00",
+      "reason": "High-risk claim rejected",
+      "trigger_type": "heavy_rain",
+      "fraud_score": 0.8,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 13.11,
+        "lng": 80.31
+      }
+    },
+    {
+      "claim_id": "clm_d0a6251c4065",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T06:42:51.148000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_56510edca7eb",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T06:42:51.148000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_bdeba0908c71",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T07:13:43.081000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 16.44505247892486,
+        "lng": 80.61898943677458
+      }
+    },
+    {
+      "claim_id": "clm_52a0aefa87c6",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 16.4480004,
+        "lng": 80.61553599999999
+      }
+    },
+    {
+      "claim_id": "clm_030fad01397a",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 16.4419257,
+        "lng": 80.6225946
+      }
+    },
+    {
+      "claim_id": "clm_52ae72d5d0b8",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "Holistic Cover",
+      "user_location": {
+        "lat": 16.4415213,
+        "lng": 80.6222849
+      }
+    },
+    {
+      "claim_id": "clm_7ace876b2f72",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T07:39:21.792000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 16.445146975088367,
+        "lng": 80.61893562910997
+      }
+    },
+    {
+      "claim_id": "clm_778b43fbc407",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T08:22:15.553000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 16.445072706425957,
+        "lng": 80.6189826066929
+      }
+    },
+    {
+      "claim_id": "clm_54879d9d1afa",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T08:38:43.922000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_5a32b110ad47",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T08:38:43.923000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_c4a263619615",
+      "user_id": "usr_d4496c7ed0ea",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T08:38:45.973000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_f8a997c0b24f",
+      "user_id": "usr_914d920872a6",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T12:09:15.271000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 16.446058,
+        "lng": 80.618294
+      }
+    },
+    {
+      "claim_id": "clm_f8d0b4d7f0e6",
+      "user_id": "usr_a4ac3a639fe7",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T12:20:50.374000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_5a90133815cc",
+      "user_id": "usr_a4ac3a639fe7",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T12:20:50.375000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_b878b2868050",
+      "user_id": "usr_a4ac3a639fe7",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T12:23:06.823000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_446724a2947b",
+      "user_id": "usr_a4ac3a639fe7",
+      "claim_type": "auto",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T12:23:06.823000+00:00",
+      "reason": "No active trigger detected",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "System Auto",
+      "user_location": {
+        "lat": 12.97,
+        "lng": 77.59
+      }
+    },
+    {
+      "claim_id": "clm_59b9ddea9941",
+      "user_id": "usr_a4ac3a639fe7",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T00:02:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "HeatGuard",
+      "user_location": {
+        "lat": 16.4480004,
+        "lng": 80.61553599999999
+      }
+    },
+    {
+      "claim_id": "clm_80cf4b47dcfc",
+      "user_id": "usr_a4ac3a639fe7",
+      "claim_type": "manual",
+      "status": "rejected",
+      "payout": 0.0,
+      "payout_candidate": 0.0,
+      "timestamp": "2026-04-04T21:00:00-07:00",
+      "reason": "No matching trigger found",
+      "trigger_type": "none",
+      "fraud_score": 0.0,
+      "verification_required": false,
+      "policy_type": "RainSure Cover",
+      "user_location": {
+        "lat": 16.4496334,
+        "lng": 80.5991592
+      }
+    }
+  ],
+  "user_fraud_profiles": {
+    "demo-user": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.8,
+      0.8,
+      0.0,
+      0.0,
+      0.8,
+      0.0,
+      0.0,
+      0.8,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "manual-user": [
+      0.0,
+      0.0
+    ],
+    "geo-user": [
+      0.0,
+      0.0
+    ],
+    "geo-user-2": [
+      0.0
+    ],
+    "usr_9c819783f5c5": [
+      0.0
+    ],
+    "usr_fefb502fb3d3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "usr_d4496c7ed0ea": [
+      0.0,
+      0.0,
+      0.0,
+      0.2,
+      0.0,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "usr_914d920872a6": [
+      0.0
+    ],
+    "usr_a4ac3a639fe7": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

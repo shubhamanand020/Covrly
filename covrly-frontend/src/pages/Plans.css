@@ -1,0 +1,150 @@
+.plans-page {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 24px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #f5d0fe, #bfdbfe);
+}
+
+.plans-header {
+  display: grid;
+  gap: 4px;
+}
+
+.plans-header h1 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+.plans-grid .policycard {
+  position: relative;
+  overflow: visible;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 28px 16px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.plans-grid .policycard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+}
+
+.plans-grid .policycard-header {
+  min-height: 18px;
+}
+
+.plans-grid .policycard-title {
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  margin: 0;
+  background: rgba(255, 150, 150, 0.6);
+  color: #3b1c1c;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  box-shadow: 0 6px 12px rgba(122, 45, 45, 0.2);
+}
+
+.plans-grid .policycard-plan-coverage {
+  flex: 1;
+}
+
+.plans-grid .policycard-plan-coverage,
+.plans-grid .policycard-detail-item {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 10px;
+}
+
+.plans-grid .policycard-plan-list,
+.plans-grid .policycard-plan-section-label,
+.plans-grid .policycard-detail-item dt,
+.plans-grid .policycard-detail-item dd {
+  color: #1f2937;
+}
+
+.plans-grid .policycard-plan-list {
+  margin-top: 6px;
+}
+
+.plans-grid .policycard-buy-button {
+  margin-top: auto;
+  width: auto;
+  align-self: flex-end;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background: #7a2d2d;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.plans-grid .policycard-buy-button:hover:not(:disabled) {
+  background: #5f2323;
+}
+
+.plans-grid .policycard-buy-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.plans-error {
+  margin: 0;
+  color: #7f1d1d;
+  border: 1px solid rgba(254, 202, 202, 0.9);
+  background: rgba(255, 255, 255, 0.42);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .plans-page {
+    padding: 12px;
+  }
+
+  .plans-header h1 {
+    font-size: 24px;
+  }
+
+  .plans-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .plans-grid .policycard {
+    padding: 26px 14px 14px;
+  }
+
+  .plans-grid .policycard-buy-button {
+    align-self: stretch;
+    width: 100%;
+  }
+}

@@ -1,0 +1,186 @@
+.location-page {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.location-header {
+  display: grid;
+  gap: 6px;
+}
+
+.location-header h1 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.location-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #475569;
+}
+
+.location-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 16px;
+  display: grid;
+  gap: 14px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.location-card h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #0f172a;
+}
+
+.location-card-group {
+  display: grid;
+  gap: 8px;
+}
+
+.location-kicker {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+}
+
+.location-status-pill {
+  width: fit-content;
+  margin: 0;
+  padding: 7px 12px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.location-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.location-status-pill.is-success {
+  color: #166534;
+  background: #dcfce7;
+  border-color: #bbf7d0;
+}
+
+.location-status-pill.is-danger {
+  color: #b91c1c;
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+.location-status-pill.is-warning {
+  color: #a16207;
+  background: #fef9c3;
+  border-color: #fde68a;
+}
+
+.location-monitor-label {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.location-monitor-hint {
+  margin: 0;
+  font-size: 13px;
+  color: #475569;
+}
+
+.location-sync-button {
+  width: fit-content;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #0f766e;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.location-sync-button:hover {
+  background: #115e59;
+}
+
+.location-sync-button:active {
+  transform: translateY(1px);
+}
+
+.location-sync-button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.location-data-row {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background: #f8fafc;
+  padding: 11px 12px;
+  display: grid;
+  gap: 4px;
+}
+
+.location-data-row span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.location-data-row strong {
+  font-size: 14px;
+  color: #0f172a;
+  overflow-wrap: anywhere;
+}
+
+.location-actions-inline {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.location-secondary-button {
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1d4ed8;
+  background: #eff6ff;
+  cursor: pointer;
+}
+
+.location-secondary-button:hover {
+  background: #dbeafe;
+}
+
+@media (max-width: 480px) {
+  .location-header h1 {
+    font-size: 24px;
+  }
+
+  .location-card {
+    padding: 14px;
+  }
+}

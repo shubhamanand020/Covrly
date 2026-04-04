@@ -1,0 +1,142 @@
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e5e7eb;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 -10px 24px rgba(2, 6, 23, 0.08);
+  z-index: 30;
+}
+
+.bottom-nav-inner {
+  position: relative;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  min-height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px calc(10px + env(safe-area-inset-bottom, 0px));
+}
+
+.bottom-nav-group {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.bottom-nav-group-left {
+  padding-right: 32px;
+}
+
+.bottom-nav-group-right {
+  padding-left: 32px;
+}
+
+.bottom-nav-item {
+  min-width: 44px;
+}
+
+.bottom-nav-link {
+  min-height: 46px;
+  border-radius: 10px;
+  padding: 2px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #6b7280;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.bottom-nav-link:hover {
+  background: #f1f5f9;
+}
+
+.bottom-nav-link.is-active {
+  color: #111827;
+  background: #eef2ff;
+}
+
+.bottom-nav-fab {
+  position: absolute;
+  left: 50%;
+  top: -25px;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  border: 3px solid #ffffff;
+  background: #111827;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.3);
+  z-index: 10;
+  transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.bottom-nav-fab:hover,
+.bottom-nav-fab.is-active {
+  background: #0f172a;
+}
+
+.bottom-nav-fab:active {
+  transform: translateX(-50%) scale(0.95);
+}
+
+.bottom-nav-fab-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-nav-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-bottom: 2px;
+}
+
+.bottom-nav-label {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  .bottom-nav-inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .bottom-nav-group {
+    gap: 22px;
+  }
+
+  .bottom-nav-group-left {
+    padding-right: 26px;
+  }
+
+  .bottom-nav-group-right {
+    padding-left: 26px;
+  }
+
+  .bottom-nav-fab {
+    width: 52px;
+    height: 52px;
+  }
+}

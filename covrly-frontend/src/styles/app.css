@@ -1,0 +1,40 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.page-path {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+}
+
+.page-card h1 {
+  margin: 8px 0 6px;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.page-copy {
+  margin: 0;
+  color: #4b5563;
+}
+
+@media (max-width: 420px) {
+  .page-card {
+    padding: 16px;
+  }
+}
