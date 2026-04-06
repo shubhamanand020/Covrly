@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
-import { isAuthenticated, registerUser, requestRegisterOtp } from '../services/api'
+import { getApiErrorMessage, isAuthenticated, registerUser, requestRegisterOtp } from '../services/api'
 import './Register.css'
 
 const initialFormData = {
@@ -93,8 +93,8 @@ function Register() {
     setInfo('')
 
     try {
-      const response = await requestRegisterOtp({ email })
-      const expiryMinutes = Number(response?.data?.data?.expires_in_minutes || 10)
+      const responseData = await requestRegisterOtp({ email })
+      const expiryMinutes = Number(responseData?.data?.expires_in_minutes || 10)
       setOtpSent(true)
       setMaskedOtpEmail(maskEmail(email))
       setInfo(`OTP sent. It expires in ${expiryMinutes} minutes.`)
@@ -104,8 +104,7 @@ function Register() {
         otpInputRef.current.select()
       }
     } catch (requestError) {
-      const detail = requestError?.response?.data?.detail
-      setError(typeof detail === 'string' ? detail : 'Unable to send OTP right now.')
+      setError(getApiErrorMessage(requestError, 'Unable to send OTP right now.'))
     } finally {
       setOtpSending(false)
     }
@@ -143,8 +142,7 @@ function Register() {
       })
       navigate('/login', { replace: true, state: { registered: true } })
     } catch (requestError) {
-      const detail = requestError?.response?.data?.detail
-      setError(typeof detail === 'string' ? detail : 'Unable to register right now.')
+      setError(getApiErrorMessage(requestError, 'Unable to register right now.'))
     } finally {
       setLoading(false)
     }

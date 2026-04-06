@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Login from './pages/Login'
 import Register from './pages/Register'
@@ -14,9 +15,14 @@ import Plans from './pages/Plans'
 import LocationPage from './pages/LocationPage'
 import Layout from './components/Layout'
 import ProtectedRoute from './components/ProtectedRoute'
+import { warmup } from './services/api'
 import './styles/app.css'
 
 function App() {
+  useEffect(() => {
+    void warmup()
+  }, [])
+
   return (
     <BrowserRouter>
       <Routes>

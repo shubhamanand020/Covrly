@@ -1,11 +1,77 @@
 import axios from 'axios'
 
 const TOKEN_STORAGE_KEY = 'covrly_auth_token'
+const API_BASE_URL = 'https://covrly.onrender.com'
+const API_TIMEOUT_MS = 30000
+const RETRY_DELAY_MS = 1000
 
-const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL,
-  timeout: 10000,
+export const api = axios.create({
+  baseURL: API_BASE_URL,
+  timeout: API_TIMEOUT_MS,
 })
+
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+
+const shouldRetryRequest = (requestError) =>
+  requestError?.code === 'ECONNABORTED' || !requestError?.response
+
+const runWithSingleRetry = async (requestFactory) => {
+  try {
+    return await requestFactory()
+  } catch (requestError) {
+    if (!shouldRetryRequest(requestError)) {
+      throw requestError
+    }
+
+    await delay(RETRY_DELAY_MS)
+    return requestFactory()
+  }
+}
+
+let warmupRequest = null
+
+export const warmup = () => {
+  if (!warmupRequest) {
+    warmupRequest = api.get('/').catch(() => null)
+  }
+  return warmupRequest
+}
+
+export const getApiErrorMessage = (requestError, fallbackMessage = 'Something went wrong.') => {
+  const detail = requestError?.response?.data?.detail
+  if (typeof detail === 'string' && detail.trim()) {
+    return detail.trim()
+  }
+
+  if (Array.isArray(detail)) {
+    const validationMessage = detail
+      .map((item) => item?.msg)
+      .filter((msg) => typeof msg === 'string' && msg.trim())
+      .join(', ')
+    if (validationMessage) {
+      return validationMessage
+    }
+  }
+
+  if (requestError?.code === 'ECONNABORTED') {
+    return 'Server is waking up. Please wait a few seconds and try again.'
+  }
+
+  if (!requestError?.response) {
+    return 'Network error. Please check your connection and try again.'
+  }
+
+  if (Number(requestError?.response?.status) >= 500) {
+    return 'Server error. Please try again shortly.'
+  }
+
+  const message = requestError?.message
+  if (!requestError?.response && typeof message === 'string' && message.trim()) {
+    return `Cannot reach backend API. ${message.trim()}`
+  }
+
+  return fallbackMessage
+}
 
 export const getToken = () => localStorage.getItem(TOKEN_STORAGE_KEY)
 
@@ -35,7 +101,14 @@ api.interceptors.request.use((config) => {
 
 export const registerUser = (data) => api.post('/auth/register', data)
 
-export const requestRegisterOtp = (data) => api.post('/auth/register/request-otp', data)
+export const sendOtp = async (data) => {
+  const response = await runWithSingleRetry(() =>
+    api.post('/auth/register/request-otp', data),
+  )
+  return response.data
+}
+
+export const requestRegisterOtp = sendOtp
 
 export const loginUser = (data) => api.post('/auth/login', data)
 
