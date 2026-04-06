@@ -38,7 +38,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 def send_otp_email(to_email: str, otp: str) -> None:
-    resend_api_key = str(os.getenv("RESEND_API_KEY", "re_ZZz2n2Bz_Fhq7tbaLm4b2qPWWNNiBFVwz")).strip()
+    resend_api_key = str(os.getenv("RESEND_API_KEY", "")).strip()
     if not resend_api_key:
         raise ValueError("Resend API key is not configured. Set RESEND_API_KEY.")
 
