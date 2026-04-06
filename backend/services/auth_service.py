@@ -3,14 +3,15 @@
 from __future__ import annotations
 
 import hashlib
+import json
+import logging
 import os
 import re
 import secrets
-import smtplib
-import ssl
 from datetime import datetime, timedelta, timezone
-from email.message import EmailMessage
 from typing import Any, Dict
+from urllib import error as url_error
+from urllib import request as url_request
 
 import bcrypt
 import jwt
@@ -20,11 +21,12 @@ from backend.storage.mongo_repository import (
     delete_registration_otp,
     get_registration_otp,
     get_user_by_email,
+    get_user_by_id,
     increment_registration_otp_attempt,
     upsert_registration_otp,
 )
 
-JWT_SECRET = os.getenv("COVRLY_JWT_SECRET", "covrly-dev-secret-change-me-32chars")
+JWT_SECRET = os.getenv("COVRLY_JWT_SECRET", "covrly-dev-secret-chbkxbkvbdjsvbskdange-me-32chars")
 JWT_ALGORITHM = "HS256"
 JWT_EXPIRY_DAYS = 7
 EMAIL_PATTERN = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
@@ -32,6 +34,52 @@ OTP_DIGITS = 6
 OTP_EXPIRY_MINUTES = int(os.getenv("COVRLY_OTP_EXPIRY_MINUTES", "10"))
 OTP_MAX_ATTEMPTS = int(os.getenv("COVRLY_OTP_MAX_ATTEMPTS", "5"))
 OTP_SECRET = os.getenv("COVRLY_OTP_SECRET", JWT_SECRET)
+LOGGER = logging.getLogger(__name__)
+
+
+def send_otp_email(to_email: str, otp: str) -> None:
+    resend_api_key = str(os.getenv("RESEND_API_KEY", "re_ZZz2n2Bz_Fhq7tbaLm4b2qPWWNNiBFVwz")).strip()
+    if not resend_api_key:
+        raise ValueError("Resend API key is not configured. Set RESEND_API_KEY.")
+
+    payload = {
+        "from": "onboarding@resend.dev",
+        "to": [to_email],
+        "subject": "Your OTP Code",
+        "html": f"<p>Your OTP is <b>{otp}</b></p>",
+    }
+
+    request_body = json.dumps(payload).encode("utf-8")
+    request = url_request.Request(
+        url="https://api.resend.com/emails",
+        data=request_body,
+        method="POST",
+        headers={
+            "Authorization": f"Bearer {resend_api_key}",
+            "Content-Type": "application/json",
+        },
+    )
+
+    try:
+        with url_request.urlopen(request, timeout=15) as response:
+            status_code = int(getattr(response, "status", 0) or 0)
+            if status_code < 200 or status_code >= 300:
+                LOGGER.error("Resend returned unexpected status code %s", status_code)
+                raise ValueError("Unable to send OTP right now")
+    except url_error.HTTPError as exc:
+        response_body = ""
+        try:
+            response_body = exc.read().decode("utf-8", errors="ignore")
+        except Exception:
+            response_body = ""
+        LOGGER.error("Resend HTTP error %s: %s", exc.code, response_body or exc.reason)
+        raise ValueError("Unable to send OTP right now") from exc
+    except url_error.URLError as exc:
+        LOGGER.error("Resend network error: %s", exc.reason)
+        raise ValueError("Unable to send OTP right now") from exc
+    except Exception as exc:
+        LOGGER.exception("Unexpected error while sending OTP via Resend")
+        raise ValueError("Unable to send OTP right now") from exc
 
 
 class AuthService:
@@ -56,65 +104,6 @@ class AuthService:
         return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
     @staticmethod
-    def _send_registration_otp_email(email: str, otp: str) -> None:
-        smtp_host = str(os.getenv("COVRLY_SMTP_HOST", "")).strip()
-        smtp_port = int(str(os.getenv("COVRLY_SMTP_PORT", "587")).strip() or "587")
-        smtp_username = str(os.getenv("COVRLY_SMTP_USERNAME", "")).strip()
-        smtp_password = str(os.getenv("COVRLY_SMTP_PASSWORD", "")).strip()
-        smtp_from_email = str(os.getenv("COVRLY_SMTP_FROM_EMAIL", smtp_username)).strip()
-        smtp_use_tls = str(os.getenv("COVRLY_SMTP_USE_TLS", "true")).strip().lower() in {
-            "1",
-            "true",
-            "yes",
-            "on",
-        }
-        smtp_use_ssl = str(os.getenv("COVRLY_SMTP_USE_SSL", "false")).strip().lower() in {
-            "1",
-            "true",
-            "yes",
-            "on",
-        }
-
-        if not smtp_host or not smtp_from_email:
-            raise ValueError(
-                "Email OTP is not configured. Set COVRLY_SMTP_HOST and COVRLY_SMTP_FROM_EMAIL."
-            )
-
-        message = EmailMessage()
-        message["Subject"] = "Your Covrly OTP Verification Code"
-        message["From"] = smtp_from_email
-        message["To"] = email
-        message.set_content(
-            "\n".join(
-                [
-                    "Your Covrly verification code is:",
-                    "",
-                    otp,
-                    "",
-                    f"This code will expire in {OTP_EXPIRY_MINUTES} minutes.",
-                    "If you did not request this code, you can safely ignore this email.",
-                ]
-            )
-        )
-
-        context = ssl.create_default_context()
-        if smtp_use_ssl:
-            with smtplib.SMTP_SSL(smtp_host, smtp_port, context=context, timeout=10) as server:
-                if smtp_username and smtp_password:
-                    server.login(smtp_username, smtp_password)
-                server.send_message(message)
-            return
-
-        with smtplib.SMTP(smtp_host, smtp_port, timeout=10) as server:
-            server.ehlo()
-            if smtp_use_tls:
-                server.starttls(context=context)
-                server.ehlo()
-            if smtp_username and smtp_password:
-                server.login(smtp_username, smtp_password)
-            server.send_message(message)
-
-    @staticmethod
     def request_registration_otp(email: str) -> Dict[str, Any]:
         normalized_email = AuthService._normalize_email(email)
 
@@ -128,7 +117,7 @@ class AuthService:
         upsert_registration_otp(normalized_email, otp_hash, expiry.isoformat())
 
         try:
-            AuthService._send_registration_otp_email(normalized_email, otp)
+            send_otp_email(normalized_email, otp)
         except Exception as exc:
             delete_registration_otp(normalized_email)
             raise ValueError(str(exc)) from exc
