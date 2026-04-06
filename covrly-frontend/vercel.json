@@ -1,5 +1,8 @@
 {
   "rewrites": [
+    { "source": "/auth", "destination": "https://covrly.onrender.com/auth" },
+    { "source": "/auth/(.*)", "destination": "https://covrly.onrender.com/auth/$1" },
+
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
