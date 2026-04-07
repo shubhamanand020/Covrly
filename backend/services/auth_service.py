@@ -67,13 +67,14 @@ def send_otp_email(to_email: str, otp: str) -> None:
                 LOGGER.error("Resend returned unexpected status code %s", status_code)
                 raise ValueError("Unable to send OTP right now")
     except url_error.HTTPError as exc:
-        response_body = ""
         try:
             response_body = exc.read().decode("utf-8", errors="ignore")
         except Exception:
-            response_body = ""
-        LOGGER.error("Resend HTTP error %s: %s", exc.code, response_body or exc.reason)
-        raise ValueError("Unable to send OTP right now") from exc
+            response_body = str(exc.reason)
+
+        LOGGER.error("FULL RESEND ERROR %s: %s", exc.code, response_body)
+
+        raise ValueError(f"Resend error: {response_body}") from exc
     except url_error.URLError as exc:
         LOGGER.error("Resend network error: %s", exc.reason)
         raise ValueError("Unable to send OTP right now") from exc
