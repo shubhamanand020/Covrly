@@ -37,32 +37,44 @@ LOGGER = logging.getLogger(__name__)
 
 
 def send_otp_email(to_email: str, otp: str) -> None:
+    import time
+
     email_user = str(os.getenv("EMAIL_USER", "")).strip()
     email_pass = str(os.getenv("EMAIL_PASS", "")).strip()
     if not email_user or not email_pass:
         raise ValueError("SMTP error: EMAIL_USER or EMAIL_PASS is not configured")
 
-    message = MIMEText(f"Your OTP is {otp}")
-    message["Subject"] = "Your OTP Code"
-    message["From"] = email_user
-    message["To"] = to_email
+    def _send_email_once() -> None:
+        message = MIMEText(f"Your OTP is {otp}")
+        message["Subject"] = "Your OTP Code"
+        message["From"] = email_user
+        message["To"] = to_email
 
-    server = None
+        server = None
+        try:
+            server = smtplib.SMTP("smtp.gmail.com", 587, timeout=10)
+            server.ehlo()
+            server.starttls()
+            server.login(email_user, email_pass)
+            server.sendmail(email_user, [to_email], message.as_string())
+            server.quit()
+        finally:
+            if server is not None:
+                try:
+                    server.quit()
+                except Exception:
+                    pass
+
     try:
-        server = smtplib.SMTP("smtp.gmail.com", 587)
-        server.ehlo()
-        server.starttls()
-        server.login(email_user, email_pass)
-        server.sendmail(email_user, [to_email], message.as_string())
-        server.quit()
-    except Exception as exc:
-        LOGGER.error("SMTP send failed: %s", exc)
-        if server is not None:
-            try:
-                server.quit()
-            except Exception:
-                pass
-        raise ValueError(f"SMTP error: {exc}") from exc
+        _send_email_once()
+    except Exception as first_exc:
+        LOGGER.error("SMTP send attempt 1 failed: %s", first_exc)
+        time.sleep(2)
+        try:
+            _send_email_once()
+        except Exception as second_exc:
+            LOGGER.error("SMTP send attempt 2 failed: %s", second_exc)
+            raise ValueError(f"SMTP error: {second_exc}") from second_exc
 
 
 class AuthService:
