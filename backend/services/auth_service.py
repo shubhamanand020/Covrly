@@ -7,13 +7,12 @@ import logging
 import os
 import re
 import secrets
-import smtplib
 from datetime import datetime, timedelta, timezone
-from email.mime.text import MIMEText
 from typing import Any, Dict
 
 import bcrypt
 import jwt
+import requests
 
 from backend.storage.mongo_repository import (
     create_user,
@@ -37,45 +36,42 @@ LOGGER = logging.getLogger(__name__)
 
 
 def send_otp_email(to_email: str, otp: str) -> None:
-    import time
-
+    brevo_api_key = str(os.getenv("BREVO_API_KEY", "")).strip()
     email_user = str(os.getenv("EMAIL_USER", "")).strip()
-    email_pass = str(os.getenv("EMAIL_PASS", "")).strip()
-    if not email_user or not email_pass:
-        raise ValueError("SMTP error: EMAIL_USER or EMAIL_PASS is not configured")
+    if not brevo_api_key or not email_user:
+        LOGGER.error("Brevo config missing: BREVO_API_KEY or EMAIL_USER")
+        raise ValueError("Email sending failed")
 
-    def _send_email_once() -> None:
-        message = MIMEText(f"Your OTP is {otp}")
-        message["Subject"] = "Your OTP Code"
-        message["From"] = email_user
-        message["To"] = to_email
+    payload = {
+        "sender": {
+            "email": email_user,
+            "name": "Covrly",
+        },
+        "to": [
+            {
+                "email": to_email,
+            }
+        ],
+        "subject": "Your OTP Code",
+        "htmlContent": f"<p>Your OTP is <b>{otp}</b></p>",
+    }
 
-        server = None
-        try:
-            server = smtplib.SMTP("smtp.gmail.com", 587, timeout=10)
-            server.ehlo()
-            server.starttls()
-            server.sock.settimeout(10)
-            server.login(email_user, email_pass)
-            server.sendmail(email_user, [to_email], message.as_string())
-           
-        finally:
-            if server is not None:
-                try:
-                    server.quit()
-                except Exception:
-                    pass
+    headers = {
+        "api-key": brevo_api_key,
+        "Content-Type": "application/json",
+    }
 
     try:
-        _send_email_once()
-    except Exception as first_exc:
-        LOGGER.error("SMTP send attempt 1 failed: %s", first_exc)
-        time.sleep(2)
-        try:
-            _send_email_once()
-        except Exception as second_exc:
-            LOGGER.error("SMTP send attempt 2 failed: %s", second_exc)
-            raise ValueError(f"SMTP error: {second_exc}") from second_exc
+        response = requests.post(
+            "https://api.brevo.com/v3/smtp/email",
+            headers=headers,
+            json=payload,
+            timeout=10,
+        )
+        response.raise_for_status()
+    except Exception as exc:
+        LOGGER.error("Brevo send failed: %s", exc)
+        raise ValueError(f"Brevo error: {str(exc)}") from exc
 
 
 class AuthService:
