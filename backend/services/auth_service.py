@@ -3,15 +3,14 @@
 from __future__ import annotations
 
 import hashlib
-import json
 import logging
 import os
 import re
 import secrets
+import smtplib
 from datetime import datetime, timedelta, timezone
+from email.mime.text import MIMEText
 from typing import Any, Dict
-from urllib import error as url_error
-from urllib import request as url_request
 
 import bcrypt
 import jwt
@@ -38,49 +37,32 @@ LOGGER = logging.getLogger(__name__)
 
 
 def send_otp_email(to_email: str, otp: str) -> None:
-    resend_api_key = str(os.getenv("RESEND_API_KEY", "")).strip()
-    if not resend_api_key:
-        raise ValueError("Resend API key is not configured. Set RESEND_API_KEY.")
+    email_user = str(os.getenv("EMAIL_USER", "")).strip()
+    email_pass = str(os.getenv("EMAIL_PASS", "")).strip()
+    if not email_user or not email_pass:
+        raise ValueError("SMTP error: EMAIL_USER or EMAIL_PASS is not configured")
 
-    payload = {
-        "from": "onboarding@resend.dev",
-        "to": [to_email],
-        "subject": "Your OTP Code",
-        "html": f"<p>Your OTP is <b>{otp}</b></p>",
-    }
+    message = MIMEText(f"Your OTP is {otp}")
+    message["Subject"] = "Your OTP Code"
+    message["From"] = email_user
+    message["To"] = to_email
 
-    request_body = json.dumps(payload).encode("utf-8")
-    request = url_request.Request(
-        url="https://api.resend.com/emails",
-        data=request_body,
-        method="POST",
-        headers={
-            "Authorization": f"Bearer {resend_api_key}",
-            "Content-Type": "application/json",
-        },
-    )
-
+    server = None
     try:
-        with url_request.urlopen(request, timeout=15) as response:
-            status_code = int(getattr(response, "status", 0) or 0)
-            if status_code < 200 or status_code >= 300:
-                LOGGER.error("Resend returned unexpected status code %s", status_code)
-                raise ValueError("Unable to send OTP right now")
-    except url_error.HTTPError as exc:
-        try:
-            response_body = exc.read().decode("utf-8", errors="ignore")
-        except Exception:
-            response_body = str(exc.reason)
-
-        LOGGER.error("FULL RESEND ERROR %s: %s", exc.code, response_body)
-
-        raise ValueError(f"Resend error: {response_body}") from exc
-    except url_error.URLError as exc:
-        LOGGER.error("Resend network error: %s", exc.reason)
-        raise ValueError("Unable to send OTP right now") from exc
+        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server.ehlo()
+        server.starttls()
+        server.login(email_user, email_pass)
+        server.sendmail(email_user, [to_email], message.as_string())
+        server.quit()
     except Exception as exc:
-        LOGGER.exception("Unexpected error while sending OTP via Resend")
-        raise ValueError("Unable to send OTP right now") from exc
+        LOGGER.error("SMTP send failed: %s", exc)
+        if server is not None:
+            try:
+                server.quit()
+            except Exception:
+                pass
+        raise ValueError(f"SMTP error: {exc}") from exc
 
 
 class AuthService:
