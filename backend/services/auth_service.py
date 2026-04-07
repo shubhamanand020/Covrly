@@ -55,9 +55,10 @@ def send_otp_email(to_email: str, otp: str) -> None:
             server = smtplib.SMTP("smtp.gmail.com", 587, timeout=10)
             server.ehlo()
             server.starttls()
+            server.sock.settimeout(10)
             server.login(email_user, email_pass)
             server.sendmail(email_user, [to_email], message.as_string())
-            server.quit()
+           
         finally:
             if server is not None:
                 try:
