@@ -30,27 +30,27 @@ const resolveCurrentLocation = () =>
 const featuredPolicies = [
   {
     name: 'HeatGuard',
-    coverageItems: ['Heatwave emergency payout', 'Cooling device damage', 'Power outage support'],
-    premium: '₹275/week',
-    maxCoverageAmount: 'Rs 5,00,000',
+    coverageItems: ['Heatwave emergency payout', ],
+    premium: '₹75/week',
+    maxCoverageAmount: 'Rs 700',
   },
   {
     name: 'RainSure Cover',
-    coverageItems: ['Flooded home support', 'Rain-related vehicle loss', 'Emergency shelter allowance'],
-    premium: '₹210/week',
-    maxCoverageAmount: 'Rs 4,00,000',
+    coverageItems: ['Rain-related vehicle loss', 'Emergency shelter allowance'],
+    premium: '₹80/week',
+    maxCoverageAmount: 'Rs 600',
   },
   {
     name: 'CivicShield Cover',
     coverageItems: ['Riot disruption claims', 'Public service outage aid', 'Urban mobility interruption'],
-    premium: '₹240/week',
-    maxCoverageAmount: 'Rs 4,50,000',
+    premium: '₹60/week',
+    maxCoverageAmount: 'Rs 550',
   },
   {
     name: 'Holistic Cover',
-    coverageItems: ['Climate and civic trigger bundle', 'Health impact support', 'Business continuity payout'],
-    premium: '₹290/week',
-    maxCoverageAmount: 'Rs 6,00,000',
+    coverageItems: ['Climate and civic trigger bundle', 'Business continuity payout'],
+    premium: '₹120/week',
+    maxCoverageAmount: 'Rs 700',
   },
 ]
 
